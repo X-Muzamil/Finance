@@ -52,3 +52,15 @@ Managing personal finances is a challenge for many people. This system provides 
 ---
 
 ## 📁 Project Structure
+
+Finance/
+├── Abstract/           → Base classes (FinancialEntity, BaseQuery)
+├── EntityFiles/        → Models (Income, Expense, Budget, User)
+├── Query/              → Database query classes
+├── gui/                → All UI screens (Login, Dashboard, Income, Expense, Budget, Reports)
+├── session/            → User session management
+├── db/                 → Database connection (DBConnection)
+├── interfaces/         → Insertable, Retrievable, Deletable
+├── report/             → Report generation
+├── lib/                → MySQL connector JAR
+└── MainMethod/         → Main.java entry point
